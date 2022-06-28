@@ -1,0 +1,155 @@
+body {
+  background: #1F2937;
+  color: white;
+  font-size: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: #3882F6;
+  font-size: 1.125em;
+  font-weight: bold;
+  height: 2em;
+  width: 7.5em;
+  border-style: none;
+  border-radius: 0.5em;
+}
+
+body>* {
+  padding-inline: 15%;
+  padding-block: 2.5em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+}
+
+.header {
+  padding-block: 0;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.header .nav {
+  font-size: 1.125em;
+  display: flex;
+  gap: 1em;
+}
+
+.content {
+  gap: 2em;
+}
+
+.content .left {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.content .left .title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.content .right {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .right img {
+  max-width: 100%;
+}
+
+.info {
+  gap: 2.5em;
+  background: white;
+  flex-direction: column;
+}
+
+.info .text {
+  color: #1F2937;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+.info .illustrations {
+  display: flex;
+  column-gap: 1em;
+}
+
+.info .illustrations img {
+  border-style: solid;
+  border-radius: 1em;
+  color: #3882F6;
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+}
+
+.info .illustrations * {
+  text-align: center;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  background: lightgray;
+  color: #1F2937;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 0;
+}
+
+.quote .text {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.attribute {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+}
+
+.call {
+  background: white;
+}
+
+.call .wrapper {
+  background: #3882F6;
+  width: 100%;
+  padding-block: 2.5em;
+  padding-inline: 5em;
+  border-style: none;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.call .wrapper .top {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.call .wrapper button {
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.5em;
+}
