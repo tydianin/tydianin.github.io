@@ -34,6 +34,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 300px;
+  max-width: 100%;
+}
+
 header, footer {
   padding: 16px;
   background: slategray;
@@ -50,4 +55,10 @@ nav li {
 
 nav li:hover {
   background: mediumslateblue;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
