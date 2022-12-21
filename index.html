@@ -1,90 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
+  <!-- HTML5 Basics -->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="style/landing.css">
+
+  <!-- Page Specifics -->
+  <title>Weston Gibson</title>
+  <link rel="icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="/style/home.css">
+  <!-- <base href="https://tydianin.github.io/" target="_blank"> -->
+  <meta name="Description" content="Weston Gibson's personal webpage hosted through GitHub, Inc.'s Pages system. A front-end way to
+        navigate an aspiring software developer's journey through a career change.">
+
+  <!-- Open Graph Protocol -->
+  <meta property="og:title" content="Weston Gibson's Personal Webpage">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/89497650?v=4">
+  <meta property="og:url" content="https://tydianin.github.io/">
+  <meta property="og:description" content="Weston Gibson's personal webpage hosted through GitHub, Inc.'s Pages system. A front-end way to
+        navigate an aspiring software developer's journey through a career change.">
+  <meta property="og:locale" content="en_US">
 </head>
 
 <body>
-  <div class="header">
-    <div class="logo">Landing Page</div>
+  <header>
+    <a href="#"><h1>Weston Gibson</h1></a>
+  </header>
 
-    <div class="nav">
-      <a href="pages/links-and-images/">Links and Images</a>
-      <a href="pages/recipes/">Recipes</a>
-      <a href="#">JS Projects</a>
-    </div>
-  </div>
+  <main>
+    <nav class="col-3">
+      <ul>
+        <li><a href="pages/resume/">Resume</a></li>
+        <li><a href="pages/cv/">Academics</a></li>
+        <li><a href="https://github.com/tydianin">GitHub</a></li>
+        <li><a href="pages/odin/">Odin Project</a></li>
+      </ul>
+    </nav>
 
-  <div class="content">
-    <div class="left">
-      <div class="title">This website is awesome</div>
-      <div class="text">This website is constructed using the lessons taught by The Odin Project. They are a fantastic
-        resource for learning HTML, CSS, JavaScript, and many useful development practices. I highly recommend it.</div>
-      <a href="https://www.theodinproject.com/"><button>Sign up</a>
-    </div>
+    <section class="col-9">
+      <h1>Welcome</h1>
+      <p>
+        Weston Gibson's personal webpage hosted through GitHub, Inc.'s Pages system. A front-end way to
+        navigate an aspiring software developer's journey through a career change.
+        <br>
+        <br>
+        Currently under construction as I review HTML5, CSS3, and JavaScript from a more technical, less tutorial
+        perspective.
+      </p>
+      </article>
+  </main>
 
-    <div class="right">
-      <img src="assets/keanu.gif" alt="YOU'RE BREATHTAKING!">
-    </div>
-  </div>
-
-  <div class="info">
-    <div class="text">The Odin Project... Projects</div>
-    <div class="illustrations">
-      <div>
-        <a href="pages/links-and-images/">
-          <img src="assets/dog.jpg" alt="The best boy">
-          First Project<br>
-          Links and Images
-        </a>
-      </div>
-
-      <div>
-        <a href="pages/recipes">
-          <img src="assets/pancakes.jfif" alt="Pancakes">
-          Second Project<br>
-          Recipes
-        </a>
-      </div>
-
-      <div>
-        <a href="https://www.theodinproject.com/lessons/foundations-landing-page">
-          <img src="assets/github.png" alt="The GitHub Logo">
-          Third Project<br>
-          This Landing Page
-        </a>
-      </div>
-
-      <div>
-        <a href="https://www.theodinproject.com/lessons/foundations-fundamentals-part-1">
-          <img src="assets/odin.png" alt="The Odin Project Logo">
-          Fourth Project<br>
-          TBD
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="quote">
-    <div class="text">Please. Please, kind sir, do not cut my hair.</div>
-    <div class="attribute">-Thor, God of Thunder</div>
-  </div>
-
-  <div class="call">
-    <div class="wrapper">
-      <div class="left">
-        <div class="top">Do it!</div>
-        Try out The Odin Project today!
-      </div>
-
-      <a href="https://www.theodinproject.com/"><button>Sign up</a>
-    </div>
-  </div>
-
-  <div class="footer">Copyright © The Odin Project 2021</div>
+  <footer>
+    <a href="mailto:WestonGibson@ACM.org"><h3>Contact Me</h3></a>
+  </footer>
 </body>
