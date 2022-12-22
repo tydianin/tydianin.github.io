@@ -57,6 +57,28 @@ nav li:hover {
   background: mediumslateblue;
 }
 
+table, th, td {
+  border: solid slategray 1px;
+  border-collapse: collapse;
+  padding-inline: 8px;
+  padding-block: 4px;
+  text-align: center;
+}
+
+th {
+  background-color: slategray;
+  color: white;
+  padding-block: 8px;
+}
+
+tr:nth-child(even) td {
+  background-color: lightgray;
+}
+
+tr:nth-child(odd) td {
+  background-color: white;
+}
+
 .centered {
   display: flex;
   justify-content: center;
